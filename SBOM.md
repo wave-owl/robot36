@@ -40,7 +40,7 @@ None.
 | androidx.test.ext.junit 1.3.0 | unresolved | conditional-build-runtime-requirement | unresolved |
 | espresso 3.7.0 | unresolved | conditional-build-runtime-requirement | unresolved |
 | gradle-wrapper | UNKNOWN | Syft source/package discovery | unresolved |
-| /Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/robot36/.source-input/gradle/wrapper/gradle-wrapper.jar | unresolved | Syft source/package discovery | unresolved |
+| gradle/wrapper/gradle-wrapper.jar | unresolved | Syft source/package discovery | unresolved |
 
 License evidence paths/hashes, source manifests, model hashes and conditional
 CMake declarations are recorded in SBOM.cdx.json. Declared upstream pins do not
