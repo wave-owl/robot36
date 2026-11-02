@@ -1,0 +1,538 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "803860b7b0aaa5b6",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2685e1a923d4c79dd549889406c6ffa9e8661744"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637"
+        }
+      ],
+      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/robot36/.source-input/gradle/wrapper/gradle-wrapper.jar",
+      "type": "file"
+    },
+    {
+      "bom-ref": "external-library:0",
+      "name": "Conditional source requirements declared by app/build.gradle",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:1",
+      "name": "Conditional source requirements declared by app/proguard-rules.pro",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/proguard-rules.pro\", \"sha256\": \"56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:10",
+      "name": "androidx.test.ext.junit 1.3.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:11",
+      "name": "espresso 3.7.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:2",
+      "name": "Conditional source requirements declared by build.gradle",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"build.gradle\", \"sha256\": \"6e3a783c22ac469afff9992da9db4fcea68313cf49d4cd6aa5fa4fb81f0aa282\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:3",
+      "name": "Conditional source requirements declared by gradle/libs.versions.toml",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"gradle/libs.versions.toml\", \"sha256\": \"b69a25664dd22717907c58abe943570586d8c94bfca906fac6ef2d658f5595ac\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:4",
+      "name": "AGP 9.4.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:5",
+      "name": "appcompat 1.8.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:6",
+      "name": "material 1.14.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:7",
+      "name": "activity 1.13.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:8",
+      "name": "constraintlayout 2.2.2",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:9",
+      "name": "junit 4.13.2",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"app/build.gradle\", \"sha256\": \"ce8aa985eb58aab41b4975fb06433a297ce585e19adc01a8965a03e49405a1b9\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=e88364ec3fa76d61",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+      "externalReferences": [
+        {
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "2685e1a923d4c79dd549889406c6ffa9e8661744"
+            }
+          ],
+          "type": "build-meta",
+          "url": ""
+        }
+      ],
+      "name": "gradle-wrapper",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ],
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "type": "library",
+      "version": "UNKNOWN"
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "unknown",
+      "assemblies": [
+        "git:https://github.com/wave-owl/robot36@2af2390954aa248725042ba6b1332bbcca68c357"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [],
+      "ref": "803860b7b0aaa5b6"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:10"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:11"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:6"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:7"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:8"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:9"
+    },
+    {
+      "dependsOn": [
+        "803860b7b0aaa5b6",
+        "external-library:0",
+        "external-library:1",
+        "external-library:10",
+        "external-library:11",
+        "external-library:2",
+        "external-library:3",
+        "external-library:4",
+        "external-library:5",
+        "external-library:6",
+        "external-library:7",
+        "external-library:8",
+        "external-library:9",
+        "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=e88364ec3fa76d61"
+      ],
+      "ref": "git:https://github.com/wave-owl/robot36@2af2390954aa248725042ba6b1332bbcca68c357"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=e88364ec3fa76d61"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "git:https://github.com/wave-owl/robot36@2af2390954aa248725042ba6b1332bbcca68c357",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wave-owl/robot36/tree/2af2390954aa248725042ba6b1332bbcca68c357"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "License evidence; see declared files"
+          }
+        }
+      ],
+      "name": "wave-owl/robot36",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "source-root"
+        },
+        {
+          "name": "sbom:git-commit",
+          "value": "2af2390954aa248725042ba6b1332bbcca68c357"
+        },
+        {
+          "name": "sbom:git-tree",
+          "value": "5ef6844335561b1abbe0d1936d466e652d3a25f1"
+        },
+        {
+          "name": "sbom:source-repository",
+          "value": "https://github.com/wave-owl/robot36"
+        },
+        {
+          "name": "sbom:release-tags",
+          "value": "[]"
+        },
+        {
+          "name": "sbom:license-evidence",
+          "value": "[{\"path\": \"LICENSE\", \"sha256\": \"ecce2c7224a7224d7a812f411ac4375291710af2c67951ba69abf51d68dccb2f\"}]"
+        },
+        {
+          "name": "sbom:license-resolution",
+          "value": "unresolved; manual review required"
+        },
+        {
+          "name": "sbom:snapshot",
+          "value": "true"
+        },
+        {
+          "name": "sbom:snapshot-source-commit",
+          "value": "2af2390954aa248725042ba6b1332bbcca68c357"
+        },
+        {
+          "name": "sbom:snapshot-scope",
+          "value": "Initial immutable source snapshot, before the tooling commit; not a release report."
+        }
+      ],
+      "type": "application",
+      "version": "2af2390954aa248725042ba6b1332bbcca68c357"
+    },
+    "properties": [
+      {
+        "name": "sbom:scope",
+        "value": "Source repository inventory only; completeness is UNKNOWN. Syft inventories tracked source/package manifests. Gitlinks and declared vendored/model evidence are inspected at immutable pins. CMake declarations are conditional requirements, not resolved installations. This is NOT proof of operating-system packages, static-link closure, build-time resolution, or the contents of release binaries."
+      },
+      {
+        "name": "sbom:generation-status",
+        "value": "success"
+      },
+      {
+        "name": "sbom:generation-errors",
+        "value": "[]"
+      }
+    ],
+    "timestamp": "2026-11-02T16:50:56.815023+00:00",
+    "tools": {
+      "components": [
+        {
+          "author": "anchore",
+          "name": "syft",
+          "type": "application",
+          "version": "1.55.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:aaa03a11-5160-4373-b30b-06ff4aa9d400",
+  "specVersion": "1.6",
+  "version": 1
+}

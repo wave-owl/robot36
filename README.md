@@ -58,3 +58,9 @@ Explanation of Symbols:
 * [R3]: 2.2 kΩ MIC detect resistor (between MIC and GND)
 * [Line IN], [Line GND]: input from radio/sound card
 * [Ring 2], [Sleeve]: TRRS plug connections to smartphone
+
+## Source SBOM
+
+See [repository source SBOM report](SBOM.md). Release reports are generated automatically.
+
+The [source SBOM policy](SBOM-POLICY.md) describes automatic release artifacts.
